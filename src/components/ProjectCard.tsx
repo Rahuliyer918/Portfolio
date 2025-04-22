@@ -30,7 +30,6 @@ export default function ProjectCard({ name, description, techStack, link, image 
                         className="w-full h-64 object-cover rounded-md mb-2"
                     />
                 )}
-                {/* Title */}
                 <h2 className="text-3xl font-bold text-teal-100 text-center w-full">
                     {name}
                 </h2>
@@ -43,14 +42,10 @@ export default function ProjectCard({ name, description, techStack, link, image 
             </div>
             {/* Back */}
             <div className="absolute text-black w-full h-full bg-gray-100 rounded-xl shadow-md p-4 rotate-y-180 backface-hidden flex flex-col justify-between">
-                {/* Scrollable Content */}
                 <div className="overflow-y-auto h-full">
-                    {/* Title */}
-                    <h3 className="text-3xl font-semibold">{name}</h3> {/* Increased title size */}
-                    {/* Description */}
+                    <h3 className="text-3xl font-semibold">{name}</h3>
                     <br></br>
-                    <p className="text-xl mt-2 text-left">{description}</p> {/* Increased description size */}
-                    {/* Tech Stack */}
+                    <p className="text-xl mt-2 text-left">{description}</p>
                     <br></br>
                     <p className="text-lg mt-2 italic">
                         Tech: {techStack}

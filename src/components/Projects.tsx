@@ -50,7 +50,7 @@ const projects = [
   const Projects = () => {
     return (
       <section id="projects" className="py-16 px-8 bg-gradient-to-b from-[#13131f] to-[#1f1f2e] text-white">
-        <h2 className="text-5xl font-bold text-left text-cyan-400 mb-12 monsieur-la-doulaise-regular">
+        <h2 className="text-5xl font-bold text-left text-cyan-400 mb-12">
           My Projects
         </h2>
         <p className="mt-3 text-justify text-lg max-w-3xl leading-[30px]" >The following projects highlight my technical expertise and practical experience across various domains. 

@@ -37,7 +37,7 @@ const experiences = [
 const WorkEx = () => {
   return (
     <section id='workex' className="py-16 px-6 bg-gradient-to-b from-[#0c0c18] to-[#181829] text-white">
-      <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-cyan-400 text-center monsieur-la-doulaise-regular">
+      <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-cyan-400 text-center">
         Work Experience
       </h2>
 
