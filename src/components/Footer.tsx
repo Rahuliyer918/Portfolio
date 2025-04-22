@@ -16,7 +16,7 @@ const Footer = () => {
           
           <div className="flex space-x-8 mb-6">
             <a 
-              href="linkedin.com/in/rahulnarayan-iyer-40b614168" 
+              href="https://linkedin.com/in/rahulnarayan-iyer-40b614168" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-cyan-400 hover:text-cyan-300 transition-colors"
