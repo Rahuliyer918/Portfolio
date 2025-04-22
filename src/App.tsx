@@ -7,6 +7,7 @@ import WorkEx from './components/WorkEx';
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
