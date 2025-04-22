@@ -25,3 +25,18 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  @media (min-width: 768px) {
+    .vertical-timeline-element--right .vertical-timeline-element-date {
+      text-align: right;
+      left: auto;
+      right: -120px;
+    }
+  
+    .vertical-timeline-element--left .vertical-timeline-element-date {
+      text-align: left;
+      right: auto;
+      left: -120px;
+    }
+  }
+  
