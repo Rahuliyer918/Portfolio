@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#0f0f1a] z-50 shadow-md">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="max-w-8xl px-4 py-4 flex justify-between items-center">
         <Link
             to="hero"
             smooth={true}
