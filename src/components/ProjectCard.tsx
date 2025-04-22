@@ -6,7 +6,7 @@ interface ProjectCardProps {
   name: string;
   description: string;
   techStack: string;
-  link: string;
+  link?: string;
   image?: string;
 }
 
@@ -14,7 +14,7 @@ export default function ProjectCard({ name, description, techStack, link, image 
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <motion.div className="w-[475px] h-[500px] perspective">
+    <motion.div className="w-full max-w-[400px] h-[500px] perspective">
         <motion.div
             className={cn(
                 "relative w-full h-full transition-transform duration-700 transform-style-preserve-3d",
@@ -57,14 +57,16 @@ export default function ProjectCard({ name, description, techStack, link, image 
                     </p>
                 </div>
                 <div className="flex justify-between items-end mt-4">
-                    <a
-                        href={link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 text-sm hover:underline"
-                    >
-                        View Project↗
-                    </a>
+                    {link && (
+                        <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 text-sm hover:underline"
+                        >
+                            View Project↗
+                        </a>
+                    )}
                     <button
                         onClick={() => setFlipped(false)}
                         className="px-3 py-1 bg-gray-300 text-gray-800 rounded hover:bg-gray-400"

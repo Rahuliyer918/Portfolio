@@ -31,7 +31,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="py-16 px-6 bg-gradient-to-b from-[#181829] to-[#0f0f1a] text-white">
+    <section id='skills' className="py-16 px-6 bg-gradient-to-b from-[#181829] to-[#0f0f1a] text-white">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 justify-items-center">
         {skills.map((skill, idx) => (
           <motion.div

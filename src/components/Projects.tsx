@@ -29,7 +29,6 @@ const projects = [
       description:
         'A Python/MongoDB pipeline that processed over 5.8M US election posts through custom API integrations, optimized with Docker containerization and multi-threading for 65% faster processing.The system includes efficient database querying with caching strategies and a Plotly/Flask dashboard for real-time sentiment analysis visualization.',
       techStack: 'Python, MongoDB, Flask, Plotly, Docker',
-      link: 'https://www.example.com',
       image: socialMediaImage
     },
     {
@@ -37,7 +36,6 @@ const projects = [
       description:
         'A React/TypeScript application for library management with swift CRUD operations that reduced manual errors by 40% and improved retrieval speed by 50% through MongoDB DAO implementation.The system features asynchronous microservices for real-time book categorization and maintains high quality standards with Chai/Mocha unit testing ensuring over 90% code coverage.',
       techStack: 'Python, MongoDB, Flask, Plotly, Docker',
-      link: 'https://www.example.com',
       image: libraryImage
     },
     {
@@ -45,19 +43,25 @@ const projects = [
       description:
         'A real-time traffic signal control system that improved peak hour flow by 25% and reduced emergency vehicle wait times by 70% through synchronized light control.The system achieved 90% car detection accuracy using PyTorch object detection models with OpenCV, developed collaboratively with a team of 3 for embedded systems integration.',
       techStack: 'PyTorch, OpenCV, Python, Embedded Systems',
-      link: 'https://www.example.com',
       image: trafficImage
     }
   ];
-
+//
   const Projects = () => {
     return (
       <section id="projects" className="py-16 px-8 bg-gradient-to-b from-[#13131f] to-[#1f1f2e] text-white">
-        <h2 className="text-4xl font-semibold text-center text-[#e8e2e0] mb-12 monsieur-la-doulaise-regular">
+        <h2 className="text-5xl font-bold text-left text-cyan-400 mb-12 monsieur-la-doulaise-regular">
           My Projects
         </h2>
+        <p className="mt-3 text-justify text-lg max-w-3xl leading-[30px]" >The following projects highlight my technical expertise and practical experience across various domains. 
+          Each project is accompanied by a brief description, showcasing the technologies used and the challenges addressed, along with links to 
+          live demos and code repositories. These examples demonstrate my proficiency in developing robust solutions, my adaptability to different 
+          tech stacks, and my commitment to delivering high-quality results in collaborative environments.</p>
+          <br></br>
+          <br></br>
+          <br></br>
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[60px] justify-items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
