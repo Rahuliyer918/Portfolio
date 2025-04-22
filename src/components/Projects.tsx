@@ -50,10 +50,10 @@ const projects = [
   const Projects = () => {
     return (
       <section id="projects" className="py-16 px-8 bg-gradient-to-b from-[#13131f] to-[#1f1f2e] text-white">
-        <h2 className="text-5xl font-bold text-left text-cyan-400 mb-12">
+        <h2 className="text-5xl font-bold text-left text-cyan-400 mb-12 monsieur-la-doulaise-regular">
           My Projects
         </h2>
-        <p className="mt-3 text-justify text-lg max-w-3xl leading-[30px]" >The following projects highlight my technical expertise and practical experience across various domains. 
+        <p className="mt-3 text-left text-lg max-w-3xl leading-[30px]" >The following projects highlight my technical expertise and practical experience across various domains. 
           Each project is accompanied by a brief description, showcasing the technologies used and the challenges addressed, along with links to 
           live demos and code repositories. These examples demonstrate my proficiency in developing robust solutions, my adaptability to different 
           tech stacks, and my commitment to delivering high-quality results in collaborative environments.</p>

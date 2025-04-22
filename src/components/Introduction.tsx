@@ -5,7 +5,7 @@ const Introduction: React.FC = () => {
   return (
     <section id="intro" className="min-h-screen bg-gradient-to-b from-[#0f0f1a] to-[#1a1a2e] text-white flex flex-col md:flex-row items-center justify-between px-6 py-16 gap-8">
       <div className="max-w-5xl text-left flex-1">
-        <h2 className="text-5xl sm:text-6xl font-extrabold mb-8 text-cyan-400">
+        <h2 className="text-5xl sm:text-6xl font-extrabold mb-8 text-cyan-400 monsieur-la-doulaise-regular">
           Introduction
         </h2>
         <p className="text-md sm:text-md text-gray-200 leading-relaxed">
