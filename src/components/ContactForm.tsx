@@ -12,7 +12,7 @@ const ContactForm = () => {
       <div className="flex flex-col md:flex-row items-start justify-between gap-12">
         {/* Form Card */}
         <div className="flex-1 max-w-xl w-full">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-cyan-400 text-left monsieur-la-doulaise-regular">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-cyan-400 text-left teko-font">
             <div className="flex-1 max-w-[300px]">
               <Lottie animationData={contactMe} loop={true} />
             </div>

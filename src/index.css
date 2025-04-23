@@ -20,9 +20,10 @@
     transform-style: preserve-3d;
   }
   
-  .monsieur-la-doulaise-regular {
-    font-family: "Monsieur La Doulaise", cursive;
-    font-weight: 400;
+  .teko-font {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
   }
 

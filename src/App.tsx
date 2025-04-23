@@ -8,11 +8,13 @@ import Skills from './components/Skills';
 import Navbar from './components/Navbar';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <div className="App" >
       <Navbar />
+      <ToastContainer />
       <Hero />
       <Introduction />
       <WorkEx />
