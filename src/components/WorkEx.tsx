@@ -10,8 +10,10 @@ const experiences = [
     company: "Capgemini Technology Services India Ltd",
     duration: "Feb 2022 – Jul 2023",
     description: [
-      "Led development for Subway's Gift Card Payment system using C# .NET and VB .NET.", 
-      "Enhanced customer transactions across 25,000+ US/Canada locations, applied Agile methodology across 6 sprints, and boosted transaction speed by 40%."
+      "Led the development of Subway's Gift Card Payment system utilizing C# .NET and VB .NET technologies, revolutionizing customer transactions across more than 25,000 locations throughout the US and Canada.", 
+      "Partnered with Subway's Payments division to design and implement advanced security protocols for gift card processing, ensuring comprehensive protection of customer financial data.",
+      "Conducted extensive quality assurance through 200+ test scenarios, guaranteeing system reliability and performance before market implementation.",
+      "Embraced Agile methodologies across six development cycles, driving a 30% boost in client satisfaction scores while achieving a 40% improvement in transaction processing efficiency"
     ],
   },
   {
@@ -19,8 +21,10 @@ const experiences = [
     company: "Capgemini Technology Services India Ltd",
     duration: "Aug 2021 – Jan 2022",
     description: [
-      "Maintained and improved 17 applications for Entergy's energy business.",
-      "Implemented system improvements, improved performance by 20%, and resolved customer issues through effective troubleshooting."
+      "Managed and optimized a diverse portfolio of 17 applications (3 major systems and 14 supporting platforms) critical to Entergy's core energy business operations.",
+      "Engineered strategic system enhancements that boosted overall performance by 20% while simultaneously reducing system downtime by 40%.",
+      "Delivered exceptional customer service through skilled technical troubleshooting and rapid issue resolution, ensuring client satisfaction",
+      "Spearheaded cross-functional team initiatives to identify and eliminate application bottlenecks, resulting in 15% faster response times and enhanced user experience."
     ],
   },
   {
@@ -28,7 +32,7 @@ const experiences = [
     company: "Capgemini Technology Services India Ltd",
     duration: "Feb 2021 – Jul 2021",
     description: [
-      "Trained in C# .NET MVC, Web API, and SQL.", 
+      "Trained in C#.NET Model-View Controller (MVC), Web API, and SQL.", 
       "Developed foundational skills in .NET-based web development."
     ],
   },
