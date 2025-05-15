@@ -1,6 +1,6 @@
 import React from 'react';
 import Lottie from 'lottie-react';
-import developerAnimation from '../assets/hero.json'; // path to your animation JSON
+import developerAnimation from '../assets/hero.json';
 
 const Hero = () => {
   return (

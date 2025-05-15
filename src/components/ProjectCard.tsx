@@ -12,7 +12,7 @@ interface ProjectCardProps {
   image?: string;
   logo?: string;
   personal: boolean;
-  report?: string; // path to report file if available
+  report?: string;
 }
 
 export default function ProjectCard({

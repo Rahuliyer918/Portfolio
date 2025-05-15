@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../assets/intro/intropic2.jpg"; // Replace with your image path
+import profileImage from "../assets/intro/intropic2.jpg";
 
 const Introduction: React.FC = () => {
   return (
