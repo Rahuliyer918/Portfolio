@@ -2,38 +2,43 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import workIcon from '../assets/workEx/workEx.png';
+import buIcon from '../assets/workEx/BU.png'
 
 
 const experiences = [
   {
-    title: "Developer",
+    title: "Research Assistant",
+    company: "Binghamton University",
+    duration: "Aug 2025 - Present",
+    description: [
+      "Built and curated an annotated dataset of interview questions to evaluate question quality using ML and NLP.", 
+      "Designed annotation guidelines and preprocessing pipelines for data cleaning and normalization.",
+      "Performed manual testing of politician faces."
+    ],
+  },
+  {
+    title: "Senior Analyst (.NET Backend Engineer)",
     company: "Capgemini Technology Services India Ltd",
     duration: "Feb 2022 – Jul 2023",
     description: [
-      "Led the development of Subway's Gift Card Payment system utilizing C# .NET and VB .NET technologies, revolutionizing customer transactions across more than 25,000 locations throughout the US and Canada.", 
-      "Partnered with Subway's Payments division to design and implement advanced security protocols for gift card processing, ensuring comprehensive protection of customer financial data.",
-      "Conducted extensive quality assurance through 200+ test scenarios, guaranteeing system reliability and performance before market implementation.",
-      "Embraced Agile methodologies across six development cycles, driving a 30% boost in client satisfaction scores while achieving a 40% improvement in transaction processing efficiency"
+      "Led payment platform processing $2.3 M monthly for 25 000 + stores via C# .NET APIs, satisfying PCI-DSS controls.", 
+      "Coordinated 6-person squad across 12 Scrum sprints, delivering MVP on time and clearing backlog burn-down 18 % ahead plan",
+      "Boosted throughput 40 % via tuned SQL, caching layers, and offloading heavy workflows to asynchronous pipelines.",
+      "Cut deployment risk 95 % by running 200 + regression tests, static analyzers, and smoke checks prior to live releases.",
+      "Created idempotent endpoints with retries on Azure Service Bus, removing duplicate charges and slashing payment disputes.",
+      "Built Azure DevOps YAML pipelines for blue-green releases with rollback on failed health checks, upholding 99.9 % uptime.",
+      "Raised client NPS 30 points after integrating PayPal payments, cutting failure rate from 5 % to 0.2 % across regions."
     ],
   },
   {
-    title: "Application Support",
+    title: "Analyst (.NET Developer)",
     company: "Capgemini Technology Services India Ltd",
     duration: "Aug 2021 – Jan 2022",
     description: [
-      "Managed and optimized a diverse portfolio of 17 applications (3 major systems and 14 supporting platforms) critical to Entergy's core energy business operations.",
-      "Engineered strategic system enhancements that boosted overall performance by 20% while simultaneously reducing system downtime by 40%.",
-      "Delivered exceptional customer service through skilled technical troubleshooting and rapid issue resolution, ensuring client satisfaction",
-      "Spearheaded cross-functional team initiatives to identify and eliminate application bottlenecks, resulting in 15% faster response times and enhanced user experience."
-    ],
-  },
-  {
-    title: "Trainee",
-    company: "Capgemini Technology Services India Ltd",
-    duration: "Feb 2021 – Jul 2021",
-    description: [
-      "Trained in C#.NET Model-View Controller (MVC), Web API, and SQL.", 
-      "Developed foundational skills in .NET-based web development."
+      "Optimized SQL and refactored architecture across 17 .NET apps, shrinking average response 3.2 s→2.5 s for 50 000 + users.",
+      "Eliminated 8 bottlenecks in checkout flow, delivering 15 % faster responses and supporting 50 000 + daily sessions.",
+      "Resolved 45 production defects within 24-hour SLA, sustaining 99.5 % uptime and protecting quarterly revenue commitments.",
+      "Completed 40 h advanced C# MVC, Web API, and SQL training, scoring 95 % and sharing insights in weekly engineering guilds."
     ],
   },
 ];
@@ -56,7 +61,7 @@ const WorkEx = () => {
             icon={
               <div className='flex justify-center items-center w-full h-full'>
                 <img
-                  src={workIcon}
+                  src={exp.company === 'Binghamton University' ? buIcon : workIcon}
                   alt={exp.company}
                   className='w-[60%] h-[60%] object-contain'
                 />
