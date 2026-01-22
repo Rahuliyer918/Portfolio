@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <a
-            href="/Rahulnarayan_Resume.pdf"
+            href="/Rahulnarayan_Iyer.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"
